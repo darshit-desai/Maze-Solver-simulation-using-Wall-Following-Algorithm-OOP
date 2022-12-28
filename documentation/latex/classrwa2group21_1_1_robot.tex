@@ -1,0 +1,89 @@
+\hypertarget{classrwa2group21_1_1_robot}{}\doxysection{rwa2group21\+::Robot Class Reference}
+\label{classrwa2group21_1_1_robot}\index{rwa2group21::Robot@{rwa2group21::Robot}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_ad2814454147698b83a73cb0ac25c87f6}\label{classrwa2group21_1_1_robot_ad2814454147698b83a73cb0ac25c87f6}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_robot_ad2814454147698b83a73cb0ac25c87f6}{turn\+\_\+left}} ()
+\begin{DoxyCompactList}\small\item\em Executes when turn left method is called from algorithm class and updates m\+\_\+position and m\+\_\+direction accordingly. Calls the turn\+\_\+left of \mbox{\hyperlink{class_simulator}{Simulator}} class to turn the robot 90 degrees in C\+CW. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_af573a38d85d0adde63e94fe124bb73ac}\label{classrwa2group21_1_1_robot_af573a38d85d0adde63e94fe124bb73ac}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_robot_af573a38d85d0adde63e94fe124bb73ac}{turn\+\_\+right}} ()
+\begin{DoxyCompactList}\small\item\em when turn right method is called from algorithm class and updates m\+\_\+position and m\+\_\+direction accordingly. Calls the turn\+\_\+right of \mbox{\hyperlink{class_simulator}{Simulator}} class to turn the robot 90 degrees in CW \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_a744da0446324c187126c1741a3d93a31}\label{classrwa2group21_1_1_robot_a744da0446324c187126c1741a3d93a31}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_robot_a744da0446324c187126c1741a3d93a31}{move\+\_\+forward}} ()
+\begin{DoxyCompactList}\small\item\em when turn move forward method is called from algorithm class and updates m\+\_\+position and m\+\_\+direction accordingly. Calls the move\+\_\+forward of \mbox{\hyperlink{class_simulator}{Simulator}} class to move robot one cell forward. This method is called after robot turning left and right as well. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classrwa2group21_1_1_robot_a270866f65563a88a16b3cbf4727cb100}{robot\+\_\+get\+\_\+y}} ()
+\begin{DoxyCompactList}\small\item\em Getter to return current position of robot along y direction. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classrwa2group21_1_1_robot_aaa09b1527f7cb9885309d7e75063b1c4}{robot\+\_\+get\+\_\+x}} ()
+\begin{DoxyCompactList}\small\item\em Getter to return current position of robot along x direction. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{classrwa2group21_1_1_robot_a164a71afecdd3cc44dffb9968cbd1c2d}{robot\+\_\+get\+\_\+direction}} ()
+\begin{DoxyCompactList}\small\item\em Getter to return the current direction of the robot in the cell. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classrwa2group21_1_1_robot_abd6b74746af64f78441a711af795ce95}{Robot}} ()
+\begin{DoxyCompactList}\small\item\em A constructor created with member initalisation list with default intial values for position, direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_a14101f5f87ee1b865af0f3d1cdd1858f}\label{classrwa2group21_1_1_robot_a14101f5f87ee1b865af0f3d1cdd1858f}} 
+std\+::vector$<$ std\+::pair$<$ int, int $>$ $>$ {\bfseries v5}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_abd6b74746af64f78441a711af795ce95}\label{classrwa2group21_1_1_robot_abd6b74746af64f78441a711af795ce95}} 
+\index{rwa2group21::Robot@{rwa2group21::Robot}!Robot@{Robot}}
+\index{Robot@{Robot}!rwa2group21::Robot@{rwa2group21::Robot}}
+\doxysubsubsection{\texorpdfstring{Robot()}{Robot()}}
+{\footnotesize\ttfamily rwa2group21\+::\+Robot\+::\+Robot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A constructor created with member initalisation list with default intial values for position, direction. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_a164a71afecdd3cc44dffb9968cbd1c2d}\label{classrwa2group21_1_1_robot_a164a71afecdd3cc44dffb9968cbd1c2d}} 
+\index{rwa2group21::Robot@{rwa2group21::Robot}!robot\_get\_direction@{robot\_get\_direction}}
+\index{robot\_get\_direction@{robot\_get\_direction}!rwa2group21::Robot@{rwa2group21::Robot}}
+\doxysubsubsection{\texorpdfstring{robot\_get\_direction()}{robot\_get\_direction()}}
+{\footnotesize\ttfamily char rwa2group21\+::\+Robot\+::robot\+\_\+get\+\_\+direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter to return the current direction of the robot in the cell. 
+
+\begin{DoxyReturn}{Returns}
+char , any of the values \mbox{[}\textquotesingle{}n\textquotesingle{},\textquotesingle{}s\textquotesingle{},\textquotesingle{}e\textquotesingle{},\textquotesingle{}w\textquotesingle{}\mbox{]} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_aaa09b1527f7cb9885309d7e75063b1c4}\label{classrwa2group21_1_1_robot_aaa09b1527f7cb9885309d7e75063b1c4}} 
+\index{rwa2group21::Robot@{rwa2group21::Robot}!robot\_get\_x@{robot\_get\_x}}
+\index{robot\_get\_x@{robot\_get\_x}!rwa2group21::Robot@{rwa2group21::Robot}}
+\doxysubsubsection{\texorpdfstring{robot\_get\_x()}{robot\_get\_x()}}
+{\footnotesize\ttfamily int rwa2group21\+::\+Robot\+::robot\+\_\+get\+\_\+x (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter to return current position of robot along x direction. 
+
+\begin{DoxyReturn}{Returns}
+int , a value from 0-\/15 denoting robot\textquotesingle{}s x position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classrwa2group21_1_1_robot_a270866f65563a88a16b3cbf4727cb100}\label{classrwa2group21_1_1_robot_a270866f65563a88a16b3cbf4727cb100}} 
+\index{rwa2group21::Robot@{rwa2group21::Robot}!robot\_get\_y@{robot\_get\_y}}
+\index{robot\_get\_y@{robot\_get\_y}!rwa2group21::Robot@{rwa2group21::Robot}}
+\doxysubsubsection{\texorpdfstring{robot\_get\_y()}{robot\_get\_y()}}
+{\footnotesize\ttfamily int rwa2group21\+::\+Robot\+::robot\+\_\+get\+\_\+y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter to return current position of robot along y direction. 
+
+\begin{DoxyReturn}{Returns}
+int , a value from 0-\/15 denoting robot\textquotesingle{}s y position 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+application/robot/\mbox{\hyperlink{robot_8h}{robot.\+h}}\item 
+application/robot/robot.\+cpp\end{DoxyCompactItemize}

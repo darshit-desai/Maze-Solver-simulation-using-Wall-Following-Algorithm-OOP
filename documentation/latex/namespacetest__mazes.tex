@@ -1,0 +1,155 @@
+\hypertarget{namespacetest__mazes}{}\doxysection{test\+\_\+mazes Namespace Reference}
+\label{namespacetest__mazes}\index{test\_mazes@{test\_mazes}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_aab1b9c102d8fafdbb57a61ff80b668c3}\label{namespacetest__mazes_aab1b9c102d8fafdbb57a61ff80b668c3}} 
+def {\bfseries parametrize\+\_\+maze\+\_\+files} (maze\+\_\+files)
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_ac38e6d82d86c5e0b2a32d1cdc3ed0e4f}\label{namespacetest__mazes_ac38e6d82d86c5e0b2a32d1cdc3ed0e4f}} 
+def {\bfseries read\+\_\+maze} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a212e70754c6cacd0ddb12b01501ba4f3}{find\+\_\+tagged\+\_\+cells}} (rows, tag)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a8ffd3da869591e88e8758749f73f916a}{test\+\_\+file\+\_\+name}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_ae4654a12268fee14b0d96eaef57a3d38}{test\+\_\+classic\+\_\+size}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a69ec819ca0ad9900bfe486a94bd08698}{test\+\_\+training\+\_\+size}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a25e2c4301c1c2601d89de5be4dbbbf85}{test\+\_\+format}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a64f5fc30055eaa947b2fe6baa9c0eb2c}{test\+\_\+boundaries}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a0091bf2145a87f974961034ae91a0f94}{test\+\_\+starting\+\_\+cell\+\_\+unique}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a25ec0679f1090fb1053e000d6f196e9d}{test\+\_\+starting\+\_\+cell}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_ad07b404e0fd3fec57dfeb6e4e6a5eb7f}{test\+\_\+goal\+\_\+cells}} (maze\+\_\+file)
+\item 
+def \mbox{\hyperlink{namespacetest__mazes_a921f43019c2ed93f018bf79b36a42237}{test\+\_\+classic\+\_\+goal\+\_\+cells}} (maze\+\_\+file)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_a987d47cac330467759c5b14881db1b63}\label{namespacetest__mazes_a987d47cac330467759c5b14881db1b63}} 
+int {\bfseries C\+L\+A\+S\+S\+I\+C\+\_\+\+S\+I\+ZE} = 16
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_a01c4cfe9eff4705c06cf42e3df89d050}\label{namespacetest__mazes_a01c4cfe9eff4705c06cf42e3df89d050}} 
+int {\bfseries H\+A\+L\+F\+S\+I\+Z\+E\+\_\+\+S\+I\+ZE} = 32
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_ac8a2a05c57f6cf216461d26121cb22f0}\label{namespacetest__mazes_ac8a2a05c57f6cf216461d26121cb22f0}} 
+{\bfseries classic\+\_\+mazes} = list(Path(\textquotesingle{}classic\textquotesingle{}).glob(\textquotesingle{}$\ast$\textquotesingle{}))
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_aa749b2e9cd606579ec7411d144790345}\label{namespacetest__mazes_aa749b2e9cd606579ec7411d144790345}} 
+{\bfseries halfsize\+\_\+mazes} = list(Path(\textquotesingle{}halfsize\textquotesingle{}).glob(\textquotesingle{}$\ast$\textquotesingle{}))
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_a0c65f199f641a20f2784993f4a59d5e2}\label{namespacetest__mazes_a0c65f199f641a20f2784993f4a59d5e2}} 
+{\bfseries training\+\_\+mazes} = list(Path(\textquotesingle{}training\textquotesingle{}).glob(\textquotesingle{}$\ast$\textquotesingle{}))
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_a92d39ceba2ac182aa5c7d936e12e4497}\label{namespacetest__mazes_a92d39ceba2ac182aa5c7d936e12e4497}} 
+{\bfseries competition\+\_\+mazes} = classic\+\_\+mazes + halfsize\+\_\+mazes
+\item 
+\mbox{\Hypertarget{namespacetest__mazes_abedeae210a7d98c4b4238496bf88af61}\label{namespacetest__mazes_abedeae210a7d98c4b4238496bf88af61}} 
+{\bfseries all\+\_\+mazes} = classic\+\_\+mazes + halfsize\+\_\+mazes + training\+\_\+mazes
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}Basic tests to ensure maze files are properly formatted.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacetest__mazes_a212e70754c6cacd0ddb12b01501ba4f3}\label{namespacetest__mazes_a212e70754c6cacd0ddb12b01501ba4f3}} 
+\index{test\_mazes@{test\_mazes}!find\_tagged\_cells@{find\_tagged\_cells}}
+\index{find\_tagged\_cells@{find\_tagged\_cells}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{find\_tagged\_cells()}{find\_tagged\_cells()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+find\+\_\+tagged\+\_\+cells (\begin{DoxyParamCaption}\item[{}]{rows,  }\item[{}]{tag }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Find the set of cell positions that have a given tag.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a64f5fc30055eaa947b2fe6baa9c0eb2c}\label{namespacetest__mazes_a64f5fc30055eaa947b2fe6baa9c0eb2c}} 
+\index{test\_mazes@{test\_mazes}!test\_boundaries@{test\_boundaries}}
+\index{test\_boundaries@{test\_boundaries}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_boundaries()}{test\_boundaries()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+boundaries (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Maze boundaries are expected to be closed.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a921f43019c2ed93f018bf79b36a42237}\label{namespacetest__mazes_a921f43019c2ed93f018bf79b36a42237}} 
+\index{test\_mazes@{test\_mazes}!test\_classic\_goal\_cells@{test\_classic\_goal\_cells}}
+\index{test\_classic\_goal\_cells@{test\_classic\_goal\_cells}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_classic\_goal\_cells()}{test\_classic\_goal\_cells()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+classic\+\_\+goal\+\_\+cells (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Classic goal cells are always in the middle of the maze.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_ae4654a12268fee14b0d96eaef57a3d38}\label{namespacetest__mazes_ae4654a12268fee14b0d96eaef57a3d38}} 
+\index{test\_mazes@{test\_mazes}!test\_classic\_size@{test\_classic\_size}}
+\index{test\_classic\_size@{test\_classic\_size}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_classic\_size()}{test\_classic\_size()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+classic\+\_\+size (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Classic maze size is always 16x16.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a8ffd3da869591e88e8758749f73f916a}\label{namespacetest__mazes_a8ffd3da869591e88e8758749f73f916a}} 
+\index{test\_mazes@{test\_mazes}!test\_file\_name@{test\_file\_name}}
+\index{test\_file\_name@{test\_file\_name}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_file\_name()}{test\_file\_name()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+file\+\_\+name (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}- All maze files must be text files with `.txt` extension.
+- Only "a-z", "0-9" and "-" characters are allowed.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a25e2c4301c1c2601d89de5be4dbbbf85}\label{namespacetest__mazes_a25e2c4301c1c2601d89de5be4dbbbf85}} 
+\index{test\_mazes@{test\_mazes}!test\_format@{test\_format}}
+\index{test\_format@{test\_format}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_format()}{test\_format()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+format (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Maze file format must be homogeneous. Vertical walls are represented with
+a `|`, horizontal walls with `---` and posts with `o`.
+
+Even rows must:
+
+- Have a post each 4 characters.
+- Have a wall `---` or nothing `   ` between posts.
+
+Odd rows must:
+
+- Have a wall `|` or nothing ` ` each 4 characters.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_ad07b404e0fd3fec57dfeb6e4e6a5eb7f}\label{namespacetest__mazes_ad07b404e0fd3fec57dfeb6e4e6a5eb7f}} 
+\index{test\_mazes@{test\_mazes}!test\_goal\_cells@{test\_goal\_cells}}
+\index{test\_goal\_cells@{test\_goal\_cells}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_goal\_cells()}{test\_goal\_cells()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+goal\+\_\+cells (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Goal cells must be marked with a "G" and form a rectangular area.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a25ec0679f1090fb1053e000d6f196e9d}\label{namespacetest__mazes_a25ec0679f1090fb1053e000d6f196e9d}} 
+\index{test\_mazes@{test\_mazes}!test\_starting\_cell@{test\_starting\_cell}}
+\index{test\_starting\_cell@{test\_starting\_cell}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_starting\_cell()}{test\_starting\_cell()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+starting\+\_\+cell (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}The starting cell is expected to be at the South-West and facing North.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a0091bf2145a87f974961034ae91a0f94}\label{namespacetest__mazes_a0091bf2145a87f974961034ae91a0f94}} 
+\index{test\_mazes@{test\_mazes}!test\_starting\_cell\_unique@{test\_starting\_cell\_unique}}
+\index{test\_starting\_cell\_unique@{test\_starting\_cell\_unique}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_starting\_cell\_unique()}{test\_starting\_cell\_unique()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+starting\+\_\+cell\+\_\+unique (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}The starting cell, if marked, must be unique.
+\end{DoxyVerb}
+ \mbox{\Hypertarget{namespacetest__mazes_a69ec819ca0ad9900bfe486a94bd08698}\label{namespacetest__mazes_a69ec819ca0ad9900bfe486a94bd08698}} 
+\index{test\_mazes@{test\_mazes}!test\_training\_size@{test\_training\_size}}
+\index{test\_training\_size@{test\_training\_size}!test\_mazes@{test\_mazes}}
+\doxysubsubsection{\texorpdfstring{test\_training\_size()}{test\_training\_size()}}
+{\footnotesize\ttfamily def test\+\_\+mazes.\+test\+\_\+training\+\_\+size (\begin{DoxyParamCaption}\item[{}]{maze\+\_\+file }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Training maze size is the same as classic size, even if not fully used.
+\end{DoxyVerb}
+ 

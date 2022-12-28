@@ -1,0 +1,93 @@
+\hypertarget{classrwa2group21_1_1_algorithm}{}\doxysection{rwa2group21\+::Algorithm Class Reference}
+\label{classrwa2group21_1_1_algorithm}\index{rwa2group21::Algorithm@{rwa2group21::Algorithm}}
+
+
+This class implements the search algorithm using a Left hand approach or right hand approach.  
+
+
+
+
+{\ttfamily \#include $<$algorithm.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a6e21588824a258f832406981daf0d761}{run}} (std\+::string algo)
+\begin{DoxyCompactList}\small\item\em This method is called from the main file, after which the whole methods of bot traversing around maze is called sequentially. ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a23efd349e7d731e763f758bc890eeecb}\label{classrwa2group21_1_1_algorithm_a23efd349e7d731e763f758bc890eeecb}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a23efd349e7d731e763f758bc890eeecb}{init\+\_\+outer\+\_\+walls}} ()
+\begin{DoxyCompactList}\small\item\em This method is internally called from the run method to highlight all the outer walls of any maze selected before moving the bot. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_aec19ef4ed8d9124d6eb11da243b77854}\label{classrwa2group21_1_1_algorithm_aec19ef4ed8d9124d6eb11da243b77854}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_aec19ef4ed8d9124d6eb11da243b77854}{follow\+\_\+wall\+\_\+left}} ()
+\begin{DoxyCompactList}\small\item\em left handed wall algorithm is executed using methods of robot class by recording and evaluating current position and orientation. This is called from run method of algorithm as well. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a70b8f78ff4a929b7df8666a23afc9365}\label{classrwa2group21_1_1_algorithm_a70b8f78ff4a929b7df8666a23afc9365}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a70b8f78ff4a929b7df8666a23afc9365}{follow\+\_\+wall\+\_\+right}} ()
+\begin{DoxyCompactList}\small\item\em right handed wall algorithm is executed using methods of robot class by recording and evaluating current position and orientation.\+This is called from run method of algorithm class as well . \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a71da13ace2e113cbbca29ba38cb4f663}\label{classrwa2group21_1_1_algorithm_a71da13ace2e113cbbca29ba38cb4f663}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a71da13ace2e113cbbca29ba38cb4f663}{generate\+\_\+goal}} ()
+\begin{DoxyCompactList}\small\item\em generating a random goal every time using srand and rand function and is done during the start of the program. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a083845117ad4cf96d7728dc0fef71cd0}\label{classrwa2group21_1_1_algorithm_a083845117ad4cf96d7728dc0fef71cd0}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a083845117ad4cf96d7728dc0fef71cd0}{set\+\_\+right\+\_\+wall}} ()
+\begin{DoxyCompactList}\small\item\em Setting the right wall of a cell whenever the bot in that particular cell finds a wall on the right when it is moving in the maze. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_aad193d4fa9e850498153b12ced037a3c}\label{classrwa2group21_1_1_algorithm_aad193d4fa9e850498153b12ced037a3c}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_aad193d4fa9e850498153b12ced037a3c}{set\+\_\+left\+\_\+wall}} ()
+\begin{DoxyCompactList}\small\item\em Setting the left wall of a cell whenever the bot in that particular cell finds a wall on the left when it is moving in the maze. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a695106ff2971b39b5c7ef78f3c16bf90}\label{classrwa2group21_1_1_algorithm_a695106ff2971b39b5c7ef78f3c16bf90}} 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a695106ff2971b39b5c7ef78f3c16bf90}{set\+\_\+front\+\_\+wall}} ()
+\begin{DoxyCompactList}\small\item\em Setting the front wall of a cell whenever the bot in that particular cell finds a wall on the front when it is moving in the maze. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a1be8518a3731542382f3cc653c81956d}{traceback\+\_\+coordinate\+\_\+elimination}} ()
+\begin{DoxyCompactList}\small\item\em Function is responsible for elimination of deadend coordinates during forward movement of the robot. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a236a332a2ad5a60d42bc9a939cdf494f}{traceback\+\_\+robot\+\_\+movement}} ()
+\begin{DoxyCompactList}\small\item\em Function for tracing back robot movement using coordinates generated from coordinate elimination function. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_ab88b273ec8404def03eae09f1e1b616e}\label{classrwa2group21_1_1_algorithm_ab88b273ec8404def03eae09f1e1b616e}} 
+\mbox{\hyperlink{classrwa2group21_1_1_algorithm_ab88b273ec8404def03eae09f1e1b616e}{Algorithm}} ()
+\begin{DoxyCompactList}\small\item\em Creating a constructor using member initalisation list and default values. Intialised the instance of robot class using unique pointer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class implements the search algorithm using a Left hand approach or right hand approach. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a6e21588824a258f832406981daf0d761}\label{classrwa2group21_1_1_algorithm_a6e21588824a258f832406981daf0d761}} 
+\index{rwa2group21::Algorithm@{rwa2group21::Algorithm}!run@{run}}
+\index{run@{run}!rwa2group21::Algorithm@{rwa2group21::Algorithm}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void rwa2group21\+::\+Algorithm\+::run (\begin{DoxyParamCaption}\item[{std\+::string}]{algo }\end{DoxyParamCaption})}
+
+
+
+This method is called from the main file, after which the whole methods of bot traversing around maze is called sequentially. ~\newline
+ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algo,This} & parameter is used to store the value of algorithm to be followed in the build of \mbox{\hyperlink{class_simulator}{Simulator}}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a1be8518a3731542382f3cc653c81956d}\label{classrwa2group21_1_1_algorithm_a1be8518a3731542382f3cc653c81956d}} 
+\index{rwa2group21::Algorithm@{rwa2group21::Algorithm}!traceback\_coordinate\_elimination@{traceback\_coordinate\_elimination}}
+\index{traceback\_coordinate\_elimination@{traceback\_coordinate\_elimination}!rwa2group21::Algorithm@{rwa2group21::Algorithm}}
+\doxysubsubsection{\texorpdfstring{traceback\_coordinate\_elimination()}{traceback\_coordinate\_elimination()}}
+{\footnotesize\ttfamily void rwa2group21\+::\+Algorithm\+::traceback\+\_\+coordinate\+\_\+elimination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function is responsible for elimination of deadend coordinates during forward movement of the robot. 
+
+\mbox{\Hypertarget{classrwa2group21_1_1_algorithm_a236a332a2ad5a60d42bc9a939cdf494f}\label{classrwa2group21_1_1_algorithm_a236a332a2ad5a60d42bc9a939cdf494f}} 
+\index{rwa2group21::Algorithm@{rwa2group21::Algorithm}!traceback\_robot\_movement@{traceback\_robot\_movement}}
+\index{traceback\_robot\_movement@{traceback\_robot\_movement}!rwa2group21::Algorithm@{rwa2group21::Algorithm}}
+\doxysubsubsection{\texorpdfstring{traceback\_robot\_movement()}{traceback\_robot\_movement()}}
+{\footnotesize\ttfamily void rwa2group21\+::\+Algorithm\+::traceback\+\_\+robot\+\_\+movement (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function for tracing back robot movement using coordinates generated from coordinate elimination function. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+application/algorithm/\mbox{\hyperlink{algorithm_8h}{algorithm.\+h}}\item 
+application/algorithm/algorithm.\+cpp\end{DoxyCompactItemize}

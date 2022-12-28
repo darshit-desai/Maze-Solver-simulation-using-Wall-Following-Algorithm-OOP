@@ -1,0 +1,291 @@
+\hypertarget{class_simulator}{}\doxysection{Simulator Class Reference}
+\label{class_simulator}\index{Simulator@{Simulator}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_simulator_a3880464920ff0e7e5d72d7d610357a75}{maze\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Compute the width of the maze. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{class_simulator_a3e1a7230da3821cbc06924d4f3f71ece}{maze\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Compute the height of the maze. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_simulator_ab6b749c8f50c6268c7c777ae6879c80e}{wall\+Front}} ()
+\begin{DoxyCompactList}\small\item\em Check if there is a wall in front of the robot. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_simulator_af6b6e867ea624e5a616ae521e740d16b}{wall\+Right}} ()
+\begin{DoxyCompactList}\small\item\em Check if there is a wall to the right of the robot. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_simulator_a83249957b4edf5ddb8ee97355f4d229b}{wall\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Check if there is a wall to the left of the robot. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_a0ac8075a09d517a4538dea7d70b80e55}{move\+Forward}} (int distance=1)
+\begin{DoxyCompactList}\small\item\em Move the robot forward. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_af3e20b66f7372a26639a2ecf6f881490}{turn\+Right}} ()
+\begin{DoxyCompactList}\small\item\em Turn the robot right. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_ab103b5780fb3102441270df9c006e435}{turn\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Turn the robot left. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_aa0e3277ba6aeba683eb5888ba637a477}{set\+Wall}} (int x, int y, char direction)
+\begin{DoxyCompactList}\small\item\em Set a wall at the given coordinates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_a2fcf77e77429b746a1a397de3b19267a}{clear\+Wall}} (int x, int y, char direction)
+\begin{DoxyCompactList}\small\item\em Remove a wall at the given coordinates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_ae77656a3dea16067d95ca727c36afaab}{set\+Color}} (int x, int y, char color)
+\begin{DoxyCompactList}\small\item\em Set the color of the cell at the given coordinates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_ab7f4460016c5277c2c907ae7af9356f7}{clear\+Color}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Clear the color of the cell at the given coordinates. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_simulator_ab67597b50f274e6c03f7913d86cbd696}\label{class_simulator_ab67597b50f274e6c03f7913d86cbd696}} 
+static void \mbox{\hyperlink{class_simulator_ab67597b50f274e6c03f7913d86cbd696}{clear\+All\+Color}} ()
+\begin{DoxyCompactList}\small\item\em Clear the color of all cells in the maze. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_aa033cf7d80338a24678b95ec6f69b371}{set\+Text}} (int x, int y, const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Set the text in a cell at the given coordinates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_af15a2139f85767d6fd937f5976bdacad}{clear\+Text}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Clear the text in a cell at the given coordinates. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_simulator_a18566704e048a3e23df215df4055b44f}{clear\+All\+Text}} ()
+\begin{DoxyCompactList}\small\item\em Clear the text in all cells of the maze. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_simulator_aee20ffd948723e24a8f7b9e91066be36}{was\+Reset}} ()
+\begin{DoxyCompactList}\small\item\em Check wether or not the reset button has been pressed. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_simulator_a76c399cf7d4e32991ead148212f94bb7}\label{class_simulator_a76c399cf7d4e32991ead148212f94bb7}} 
+static void \mbox{\hyperlink{class_simulator_a76c399cf7d4e32991ead148212f94bb7}{ack\+Reset}} ()
+\begin{DoxyCompactList}\small\item\em Moves the robot back to the starting position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_simulator_a18566704e048a3e23df215df4055b44f}\label{class_simulator_a18566704e048a3e23df215df4055b44f}} 
+\index{Simulator@{Simulator}!clearAllText@{clearAllText}}
+\index{clearAllText@{clearAllText}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{clearAllText()}{clearAllText()}}
+{\footnotesize\ttfamily void Simulator\+::clear\+All\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Clear the text in all cells of the maze. 
+
+\mbox{\Hypertarget{class_simulator_ab7f4460016c5277c2c907ae7af9356f7}\label{class_simulator_ab7f4460016c5277c2c907ae7af9356f7}} 
+\index{Simulator@{Simulator}!clearColor@{clearColor}}
+\index{clearColor@{clearColor}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{clearColor()}{clearColor()}}
+{\footnotesize\ttfamily void Simulator\+::clear\+Color (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Clear the color of the cell at the given coordinates. 
+
+\begin{DoxyReturn}{Returns}
+int X coordinate of the cell. 
+
+int Y coordinate of the cell. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_simulator_af15a2139f85767d6fd937f5976bdacad}\label{class_simulator_af15a2139f85767d6fd937f5976bdacad}} 
+\index{Simulator@{Simulator}!clearText@{clearText}}
+\index{clearText@{clearText}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{clearText()}{clearText()}}
+{\footnotesize\ttfamily void Simulator\+::clear\+Text (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Clear the text in a cell at the given coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate of the cell. \\
+\hline
+{\em y} & Y coordinate of the cell. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_simulator_a2fcf77e77429b746a1a397de3b19267a}\label{class_simulator_a2fcf77e77429b746a1a397de3b19267a}} 
+\index{Simulator@{Simulator}!clearWall@{clearWall}}
+\index{clearWall@{clearWall}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{clearWall()}{clearWall()}}
+{\footnotesize\ttfamily void Simulator\+::clear\+Wall (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{char}]{direction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Remove a wall at the given coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate of the cell. \\
+\hline
+{\em y} & Y coordinate of the cell. \\
+\hline
+{\em direction} & direction Direction of the wall. Can be \textquotesingle{}n\textquotesingle{}, \textquotesingle{}s\textquotesingle{}, \textquotesingle{}e\textquotesingle{}, \textquotesingle{}w\textquotesingle{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_simulator_a3e1a7230da3821cbc06924d4f3f71ece}\label{class_simulator_a3e1a7230da3821cbc06924d4f3f71ece}} 
+\index{Simulator@{Simulator}!mazeHeight@{mazeHeight}}
+\index{mazeHeight@{mazeHeight}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{mazeHeight()}{mazeHeight()}}
+{\footnotesize\ttfamily int Simulator\+::maze\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compute the height of the maze. 
+
+\begin{DoxyReturn}{Returns}
+int Height of the maze. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_simulator_a3880464920ff0e7e5d72d7d610357a75}\label{class_simulator_a3880464920ff0e7e5d72d7d610357a75}} 
+\index{Simulator@{Simulator}!mazeWidth@{mazeWidth}}
+\index{mazeWidth@{mazeWidth}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{mazeWidth()}{mazeWidth()}}
+{\footnotesize\ttfamily int Simulator\+::maze\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Compute the width of the maze. 
+
+\begin{DoxyReturn}{Returns}
+int Width of the maze. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_simulator_a0ac8075a09d517a4538dea7d70b80e55}\label{class_simulator_a0ac8075a09d517a4538dea7d70b80e55}} 
+\index{Simulator@{Simulator}!moveForward@{moveForward}}
+\index{moveForward@{moveForward}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{moveForward()}{moveForward()}}
+{\footnotesize\ttfamily void Simulator\+::move\+Forward (\begin{DoxyParamCaption}\item[{int}]{distance = {\ttfamily 1} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Move the robot forward. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em distance} & Distance (number of cell) to move forward. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_simulator_ae77656a3dea16067d95ca727c36afaab}\label{class_simulator_ae77656a3dea16067d95ca727c36afaab}} 
+\index{Simulator@{Simulator}!setColor@{setColor}}
+\index{setColor@{setColor}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Simulator\+::set\+Color (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{char}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Set the color of the cell at the given coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate of the cell. \\
+\hline
+{\em y} & Y coordinate of the cell. \\
+\hline
+{\em color} & Color of the cell. Can be \textquotesingle{}k\textquotesingle{} (black), \textquotesingle{}b\textquotesingle{} (blue), \textquotesingle{}a\textquotesingle{} (Gray), \textquotesingle{}c\textquotesingle{} (cyan), \textquotesingle{}g\textquotesingle{} (green), \textquotesingle{}o\textquotesingle{} (orange), \textquotesingle{}r\textquotesingle{} (red), \textquotesingle{}w\textquotesingle{} (white), \textquotesingle{}y\textquotesingle{} (yellow) \textquotesingle{}B\textquotesingle{} (dark blue), \textquotesingle{}C\textquotesingle{} (dark cyan), \textquotesingle{}A\textquotesingle{} (dark gray), \textquotesingle{}G\textquotesingle{} (dark green), \textquotesingle{}R\textquotesingle{} (dark green), \textquotesingle{}Y\textquotesingle{} (dark yellow). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_simulator_aa033cf7d80338a24678b95ec6f69b371}\label{class_simulator_aa033cf7d80338a24678b95ec6f69b371}} 
+\index{Simulator@{Simulator}!setText@{setText}}
+\index{setText@{setText}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily void Simulator\+::set\+Text (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Set the text in a cell at the given coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate of the cell. \\
+\hline
+{\em y} & Y coordinate of the cell. \\
+\hline
+{\em text} & Text to display in the cell. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_simulator_aa0e3277ba6aeba683eb5888ba637a477}\label{class_simulator_aa0e3277ba6aeba683eb5888ba637a477}} 
+\index{Simulator@{Simulator}!setWall@{setWall}}
+\index{setWall@{setWall}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{setWall()}{setWall()}}
+{\footnotesize\ttfamily void Simulator\+::set\+Wall (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{char}]{direction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Set a wall at the given coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate of the cell. \\
+\hline
+{\em y} & Y coordinate of the cell. \\
+\hline
+{\em direction} & Direction of the wall. Can be \textquotesingle{}n\textquotesingle{}, \textquotesingle{}s\textquotesingle{}, \textquotesingle{}e\textquotesingle{}, \textquotesingle{}w\textquotesingle{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_simulator_ab103b5780fb3102441270df9c006e435}\label{class_simulator_ab103b5780fb3102441270df9c006e435}} 
+\index{Simulator@{Simulator}!turnLeft@{turnLeft}}
+\index{turnLeft@{turnLeft}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{turnLeft()}{turnLeft()}}
+{\footnotesize\ttfamily void Simulator\+::turn\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Turn the robot left. 
+
+\mbox{\Hypertarget{class_simulator_af3e20b66f7372a26639a2ecf6f881490}\label{class_simulator_af3e20b66f7372a26639a2ecf6f881490}} 
+\index{Simulator@{Simulator}!turnRight@{turnRight}}
+\index{turnRight@{turnRight}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{turnRight()}{turnRight()}}
+{\footnotesize\ttfamily void Simulator\+::turn\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Turn the robot right. 
+
+\mbox{\Hypertarget{class_simulator_ab6b749c8f50c6268c7c777ae6879c80e}\label{class_simulator_ab6b749c8f50c6268c7c777ae6879c80e}} 
+\index{Simulator@{Simulator}!wallFront@{wallFront}}
+\index{wallFront@{wallFront}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{wallFront()}{wallFront()}}
+{\footnotesize\ttfamily bool Simulator\+::wall\+Front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Check if there is a wall in front of the robot. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_simulator_a83249957b4edf5ddb8ee97355f4d229b}\label{class_simulator_a83249957b4edf5ddb8ee97355f4d229b}} 
+\index{Simulator@{Simulator}!wallLeft@{wallLeft}}
+\index{wallLeft@{wallLeft}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{wallLeft()}{wallLeft()}}
+{\footnotesize\ttfamily bool Simulator\+::wall\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Check if there is a wall to the left of the robot. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_simulator_af6b6e867ea624e5a616ae521e740d16b}\label{class_simulator_af6b6e867ea624e5a616ae521e740d16b}} 
+\index{Simulator@{Simulator}!wallRight@{wallRight}}
+\index{wallRight@{wallRight}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{wallRight()}{wallRight()}}
+{\footnotesize\ttfamily bool Simulator\+::wall\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Check if there is a wall to the right of the robot. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_simulator_aee20ffd948723e24a8f7b9e91066be36}\label{class_simulator_aee20ffd948723e24a8f7b9e91066be36}} 
+\index{Simulator@{Simulator}!wasReset@{wasReset}}
+\index{wasReset@{wasReset}!Simulator@{Simulator}}
+\doxysubsubsection{\texorpdfstring{wasReset()}{wasReset()}}
+{\footnotesize\ttfamily bool Simulator\+::was\+Reset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Check wether or not the reset button has been pressed. 
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+application/simulator/\mbox{\hyperlink{simulator_8h}{simulator.\+h}}\item 
+application/simulator/simulator.\+cpp\end{DoxyCompactItemize}
