@@ -1,0 +1,24 @@
+
+------------------------------------------------------------------------
+Build the application
+------------------------------------------------------------------------
+
+1. Open the mms simulator. Select one of the maze file from mazefiles/classic folder of mazefiles.
+2. Click on the configuration window to create a new configuration. Fill the name section with any 
+   arbitrary name.
+3. Browse to the directory where the worskspace or package "rwa2_group21/application" is located.
+4. Under the build command section paste below command
+    g++ -std=c++17 -g main.cpp  simulator/simulator.cpp algorithm/algorithm.cpp robot/robot.cpp -o main
+5. Use left or right in the run command section.
+6. After configuring the window, build the simulator and run the simulator.
+------------------------------------------------------------------------
+To switch between left-hand rule approach and right-hand rule approach
+------------------------------------------------------------------------
+Explain what to modify in your code to switch between the left-hand rule and the right-hand rule approaches
+
+If you want to test the left handed wall-follower algorithm write below in the run command.
+./main left
+
+If you want to test the right handed wall-follower algorithm write below in the run command.
+./main right
+
