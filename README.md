@@ -13,5 +13,5 @@ How To Run?
 4) The algorithm can be tested on different mazes present in mazefiles folder.
 
 The output of the Wall following algorithm from position (0,0) to randomly generated goal looks like the following:
-![](https://github.com/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP/forwardmotion.gif)
+![](https://github.com/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP/output/forwardmotion.gif)
 
