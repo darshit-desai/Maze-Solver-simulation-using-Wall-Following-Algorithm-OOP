@@ -13,5 +13,9 @@ How To Run?
 4) The algorithm can be tested on different mazes present in mazefiles folder.
 
 The output of the Wall following algorithm from position (0,0) to randomly generated goal looks like the following:
-![](https://github.com/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP/output/forwardmotion.gif)
+![](https://github.com/dmdarrow4597/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP/blob/main/output/forwardmotion.gif)
+
+The project had bonus points for re tracing the path followed by the robot without using Wall following algorithm and avoiding dead ends at the same time, (Using only the path stored during forward motion), We were able to score full bonus points for that too and the output is as below:
+
+
 
