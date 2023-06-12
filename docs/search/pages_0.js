@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme_107',['README',['../md_mazefiles__r_e_a_d_m_e.html',1,'']]]
+  ['maze_2dsolver_2dsimulation_2dusing_2dwall_2dfollowing_2dalgorithm_2doop_108',['Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP',['../index.html',1,'']]]
 ];

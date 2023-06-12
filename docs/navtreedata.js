@@ -23,12 +23,13 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Maze Solver_RWA2_GROUP21", "index.html", [
-    [ "README", "md_mazefiles__r_e_a_d_m_e.html", [
-      [ "mazefiles", "md_mazefiles__r_e_a_d_m_e.html#autotoc_md0", [
-        [ "FAQ", "md_mazefiles__r_e_a_d_m_e.html#autotoc_md1", [
-          [ "How can I contribute to the repository?", "md_mazefiles__r_e_a_d_m_e.html#autotoc_md2", null ],
-          [ "Why text files?", "md_mazefiles__r_e_a_d_m_e.html#autotoc_md3", null ],
-          [ "Are there any tools to help me create maze files?", "md_mazefiles__r_e_a_d_m_e.html#autotoc_md4", null ]
+    [ "Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP", "index.html", null ],
+    [ "README", "md__home_darshit__desktop__maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_mazefiles__r_e_a_d_m_e.html", [
+      [ "mazefiles", "md__home_darshit__desktop__maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_mazefiles__r_e_a_d_m_e.html#autotoc_md0", [
+        [ "FAQ", "md__home_darshit__desktop__maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_mazefiles__r_e_a_d_m_e.html#autotoc_md1", [
+          [ "How can I contribute to the repository?", "md__home_darshit__desktop__maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_mazefiles__r_e_a_d_m_e.html#autotoc_md2", null ],
+          [ "Why text files?", "md__home_darshit__desktop__maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_mazefiles__r_e_a_d_m_e.html#autotoc_md3", null ],
+          [ "Are there any tools to help me create maze files?", "md__home_darshit__desktop__maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_mazefiles__r_e_a_d_m_e.html#autotoc_md4", null ]
         ] ]
       ] ]
     ] ],
