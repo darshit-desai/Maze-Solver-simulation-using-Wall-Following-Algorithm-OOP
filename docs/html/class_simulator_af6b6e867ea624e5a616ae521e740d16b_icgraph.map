@@ -1,0 +1,5 @@
+<map id="Simulator::wallRight" name="Simulator::wallRight">
+<area shape="rect" id="node1" title="Check if there is a wall to the right of the robot." alt="" coords="232,46,387,73"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_algorithm.html#aec19ef4ed8d9124d6eb11da243b77854" title="left handed wall algorithm is executed using methods of robot class by recording and evaluating curre..." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node3" href="$classrwa2group21_1_1_algorithm.html#a70b8f78ff4a929b7df8666a23afc9365" title="right handed wall algorithm is executed using methods of robot class by recording and evaluating curr..." alt="" coords="5,71,184,112"/>
+</map>

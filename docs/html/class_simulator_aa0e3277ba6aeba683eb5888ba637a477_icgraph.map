@@ -1,0 +1,7 @@
+<map id="Simulator::setWall" name="Simulator::setWall">
+<area shape="rect" id="node1" title="Set a wall at the given coordinates." alt="" coords="232,111,375,138"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_algorithm.html#a23efd349e7d731e763f758bc890eeecb" title="This method is internally called from the run method to highlight all the outer walls of any maze sel..." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node3" href="$classrwa2group21_1_1_algorithm.html#a695106ff2971b39b5c7ef78f3c16bf90" title="Setting the front wall of a cell whenever the bot in that particular cell finds a wall on the front w..." alt="" coords="5,71,184,112"/>
+<area shape="rect" id="node4" href="$classrwa2group21_1_1_algorithm.html#aad193d4fa9e850498153b12ced037a3c" title="Setting the left wall of a cell whenever the bot in that particular cell finds a wall on the left whe..." alt="" coords="5,136,184,177"/>
+<area shape="rect" id="node5" href="$classrwa2group21_1_1_algorithm.html#a083845117ad4cf96d7728dc0fef71cd0" title="Setting the right wall of a cell whenever the bot in that particular cell finds a wall on the right w..." alt="" coords="5,201,184,243"/>
+</map>

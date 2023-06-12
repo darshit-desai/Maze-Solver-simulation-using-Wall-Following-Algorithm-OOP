@@ -1,0 +1,5 @@
+<map id="Simulator::setText" name="Simulator::setText">
+<area shape="rect" id="node1" title="Set the text in a cell at the given coordinates." alt="" coords="267,46,407,73"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_algorithm.html#a71da13ace2e113cbbca29ba38cb4f663" title="generating a random goal every time using srand and rand function and is done during the start of the..." alt="" coords="23,5,201,47"/>
+<area shape="rect" id="node3" href="$classrwa2group21_1_1_algorithm.html#a236a332a2ad5a60d42bc9a939cdf494f" title="Function for tracing back robot movement using coordinates generated from coordinate elimination func..." alt="" coords="5,71,219,112"/>
+</map>

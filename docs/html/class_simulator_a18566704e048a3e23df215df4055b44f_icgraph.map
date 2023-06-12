@@ -1,0 +1,4 @@
+<map id="Simulator::clearAllText" name="Simulator::clearAllText">
+<area shape="rect" id="node1" title="Clear the text in all cells of the maze." alt="" coords="267,13,436,39"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_algorithm.html#a236a332a2ad5a60d42bc9a939cdf494f" title="Function for tracing back robot movement using coordinates generated from coordinate elimination func..." alt="" coords="5,5,219,47"/>
+</map>

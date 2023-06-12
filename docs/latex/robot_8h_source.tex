@@ -1,0 +1,30 @@
+\doxysection{robot.\+h}
+\hypertarget{robot_8h_source}{}\label{robot_8h_source}\index{D:/Maze-\/Solver-\/simulation-\/using-\/Wall-\/Following-\/Algorithm-\/OOP/application/robot/robot.h@{D:/Maze-\/Solver-\/simulation-\/using-\/Wall-\/Following-\/Algorithm-\/OOP/application/robot/robot.h}}
+\mbox{\hyperlink{robot_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#ifndef\ \_\_ROBOT\_H\_\_}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#define\ \_\_ROBOT\_H\_\_}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{namespace\ }rwa2group21\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrwa2group21_1_1_robot}{Robot}}\ \{}
+\DoxyCodeLine{00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_robot_ad2814454147698b83a73cb0ac25c87f6}{turn\_left}}();}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_robot_af573a38d85d0adde63e94fe124bb73ac}{turn\_right}}();}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_robot_a744da0446324c187126c1741a3d93a31}{move\_forward}}();}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classrwa2group21_1_1_robot_a270866f65563a88a16b3cbf4727cb100}{robot\_get\_y}}\ ()\ \{\ \textcolor{keywordflow}{return}\ m\_position.second;\ \}}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classrwa2group21_1_1_robot_aaa09b1527f7cb9885309d7e75063b1c4}{robot\_get\_x}}\ ()\ \{\ \textcolor{keywordflow}{return}\ m\_position.first;\ \}}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{char}\ \mbox{\hyperlink{classrwa2group21_1_1_robot_a164a71afecdd3cc44dffb9968cbd1c2d}{robot\_get\_direction}}\ ()\ \{\ \textcolor{keywordflow}{return}\ m\_direction;\ \}}
+\DoxyCodeLine{00054\ \ \ \ \ std::vector<std::pair<int,\ int>>\ v5;\ \ \ \ \textcolor{comment}{//\ A\ vector\ v5\ is\ used\ to\ append\ and\ track\ position\ of\ the\ robot\ along\ with\ its\ movement.}}
+\DoxyCodeLine{00060\ \textcolor{comment}{}\ \ \ \ \mbox{\hyperlink{classrwa2group21_1_1_robot_abd6b74746af64f78441a711af795ce95}{Robot}}():\ m\_position\{0,0\},m\_direction\{\textcolor{stringliteral}{'n'}\},v5\{std::pair\{0,0\}\}\ \{}
+\DoxyCodeLine{00061\ \ \ \ \ \}}
+\DoxyCodeLine{00062\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00063\ \ \ \ \ std::pair<int,\ int>\ m\_position;\ \textcolor{comment}{//\ Used\ to\ store\ current\ position\ along\ x\ and\ y.}}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{char}\ m\_direction;\ \textcolor{comment}{//Used\ to\ store\ current\ direction\ of\ the\ robot.}}
+\DoxyCodeLine{00065\ \};}
+\DoxyCodeLine{00066\ \}\ \textcolor{comment}{//\ namespace\ rwa2group21}}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

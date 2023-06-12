@@ -1,0 +1,39 @@
+\doxysection{algorithm.\+h}
+\hypertarget{algorithm_8h_source}{}\label{algorithm_8h_source}\index{D:/Maze-\/Solver-\/simulation-\/using-\/Wall-\/Following-\/Algorithm-\/OOP/application/algorithm/algorithm.h@{D:/Maze-\/Solver-\/simulation-\/using-\/Wall-\/Following-\/Algorithm-\/OOP/application/algorithm/algorithm.h}}
+\mbox{\hyperlink{algorithm_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#ifndef\ \_\_ALGORITHM\_H\_\_}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#define\ \_\_ALGORITHM\_H\_\_}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <array>}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}../robot/robot.h"{}}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{namespace\ }rwa2group21\ \{}
+\DoxyCodeLine{00023\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classrwa2group21_1_1_algorithm}{Algorithm}}\ \{}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a6e21588824a258f832406981daf0d761}{run}}(std::string\ algo);}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a23efd349e7d731e763f758bc890eeecb}{init\_outer\_walls}}();}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_aec19ef4ed8d9124d6eb11da243b77854}{follow\_wall\_left}}();}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a70b8f78ff4a929b7df8666a23afc9365}{follow\_wall\_right}}();}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a71da13ace2e113cbbca29ba38cb4f663}{generate\_goal}}();}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a083845117ad4cf96d7728dc0fef71cd0}{set\_right\_wall}}();}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_aad193d4fa9e850498153b12ced037a3c}{set\_left\_wall}}();}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a695106ff2971b39b5c7ef78f3c16bf90}{set\_front\_wall}}();}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a1be8518a3731542382f3cc653c81956d}{traceback\_coordinate\_elimination}}();\ \ }
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_a236a332a2ad5a60d42bc9a939cdf494f}{traceback\_robot\_movement}}();}
+\DoxyCodeLine{00084\ \ \ \ \ \mbox{\hyperlink{classrwa2group21_1_1_algorithm_ab88b273ec8404def03eae09f1e1b616e}{Algorithm}}()\ :\ robot\ (std::make\_unique<\mbox{\hyperlink{classrwa2group21_1_1_robot}{Robot}}>()),\ m\_maze\_height\{16\}\ ,\ m\_maze\_width\{16\},goal\{0,0\}\{}
+\DoxyCodeLine{00085\ \ \ \ \ \}}
+\DoxyCodeLine{00086\ \ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00087\ \ \ \ \ \ \ \ \ std::unique\_ptr<Robot>\ robot;\ \textcolor{comment}{//\ Creating\ a\ unique\ pointer\ object\ robot\ of\ class\ Robot\ to\ access\ the\ methods}}
+\DoxyCodeLine{00088\ \ \ \ \ \ \ \ \ std::pair<int,\ int>\ goal;\ \textcolor{comment}{//Initialsing\ goal\ with\ (0,0)\ then\ overriding\ it\ with\ random\ goal\ value\ generated.\ }}
+\DoxyCodeLine{00089\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ m\_maze\_height;\ \textcolor{comment}{//Setting\ the\ maze\ height\ to\ 16.}}
+\DoxyCodeLine{00090\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ m\_maze\_width;\ \textcolor{comment}{//Setting\ the\ maze\ width\ to\ 16.}}
+\DoxyCodeLine{00091\ \ \ \ \ }
+\DoxyCodeLine{00092\ \};}
+\DoxyCodeLine{00093\ \}\ \textcolor{comment}{//\ namespace\ rwa2group21}}
+\DoxyCodeLine{00094\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

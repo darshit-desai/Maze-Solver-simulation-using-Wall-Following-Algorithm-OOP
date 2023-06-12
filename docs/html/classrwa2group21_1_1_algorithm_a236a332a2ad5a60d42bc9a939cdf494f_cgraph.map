@@ -1,0 +1,7 @@
+<map id="rwa2group21::Algorithm::traceback_robot_movement" name="rwa2group21::Algorithm::traceback_robot_movement">
+<area shape="rect" id="node1" title="Function for tracing back robot movement using coordinates generated from coordinate elimination func..." alt="" coords="5,74,219,115"/>
+<area shape="rect" id="node2" href="$class_simulator.html#ab67597b50f274e6c03f7913d86cbd696" title="Clear the color of all cells in the maze." alt="" coords="267,5,443,32"/>
+<area shape="rect" id="node3" href="$class_simulator.html#a18566704e048a3e23df215df4055b44f" title="Clear the text in all cells of the maze." alt="" coords="270,56,439,83"/>
+<area shape="rect" id="node4" href="$class_simulator.html#ae77656a3dea16067d95ca727c36afaab" title="Set the color of the cell at the given coordinates." alt="" coords="281,107,428,133"/>
+<area shape="rect" id="node5" href="$class_simulator.html#aa033cf7d80338a24678b95ec6f69b371" title="Set the text in a cell at the given coordinates." alt="" coords="285,157,425,184"/>
+</map>

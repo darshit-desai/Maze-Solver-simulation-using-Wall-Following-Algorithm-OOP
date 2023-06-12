@@ -1,0 +1,12 @@
+digraph "D:/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP/mazefiles/classic"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_d026c6acf1512fe4bebc9e61a48d2e14 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="mazefiles", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_d026c6acf1512fe4bebc9e61a48d2e14.html",tooltip=""]
+  dir_a8f1adc07a7d2ab2df98e36ceab1ba2f [label="classic", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_a8f1adc07a7d2ab2df98e36ceab1ba2f.html",tooltip=""];
+  }
+}

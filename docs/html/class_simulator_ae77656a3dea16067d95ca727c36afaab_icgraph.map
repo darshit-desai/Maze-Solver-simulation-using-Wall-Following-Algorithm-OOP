@@ -1,0 +1,6 @@
+<map id="Simulator::setColor" name="Simulator::setColor">
+<area shape="rect" id="node1" title="Set the color of the cell at the given coordinates." alt="" coords="267,78,413,105"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_algorithm.html#a71da13ace2e113cbbca29ba38cb4f663" title="generating a random goal every time using srand and rand function and is done during the start of the..." alt="" coords="23,5,201,47"/>
+<area shape="rect" id="node3" href="$classrwa2group21_1_1_robot.html#a744da0446324c187126c1741a3d93a31" title="when turn move forward method is called from algorithm class and updates m_position and m_direction a..." alt="" coords="35,71,189,112"/>
+<area shape="rect" id="node4" href="$classrwa2group21_1_1_algorithm.html#a236a332a2ad5a60d42bc9a939cdf494f" title="Function for tracing back robot movement using coordinates generated from coordinate elimination func..." alt="" coords="5,136,219,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Simulator::turnRight" name="Simulator::turnRight">
+<area shape="rect" id="node1" title="Turn the robot right." alt="" coords="207,13,360,39"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_robot.html#af573a38d85d0adde63e94fe124bb73ac" title="when turn right method is called from algorithm class and updates m_position and m_direction accordin..." alt="" coords="5,5,159,47"/>
+</map>

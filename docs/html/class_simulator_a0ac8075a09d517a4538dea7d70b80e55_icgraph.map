@@ -1,0 +1,4 @@
+<map id="Simulator::moveForward" name="Simulator::moveForward">
+<area shape="rect" id="node1" title="Move the robot forward." alt="" coords="207,13,389,39"/>
+<area shape="rect" id="node2" href="$classrwa2group21_1_1_robot.html#a744da0446324c187126c1741a3d93a31" title="when turn move forward method is called from algorithm class and updates m_position and m_direction a..." alt="" coords="5,5,159,47"/>
+</map>

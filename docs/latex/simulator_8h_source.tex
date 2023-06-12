@@ -1,0 +1,39 @@
+\doxysection{simulator.\+h}
+\hypertarget{simulator_8h_source}{}\label{simulator_8h_source}\index{D:/Maze-\/Solver-\/simulation-\/using-\/Wall-\/Following-\/Algorithm-\/OOP/application/simulator/simulator.h@{D:/Maze-\/Solver-\/simulation-\/using-\/Wall-\/Following-\/Algorithm-\/OOP/application/simulator/simulator.h}}
+\mbox{\hyperlink{simulator_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_SIMULATOR\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_SIMULATOR\_H\_\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_simulator}{Simulator}}\ \{}
+\DoxyCodeLine{00020\ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_simulator_a3880464920ff0e7e5d72d7d610357a75}{mazeWidth}}();}
+\DoxyCodeLine{00032\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_simulator_a3e1a7230da3821cbc06924d4f3f71ece}{mazeHeight}}();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00040\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_simulator_ab6b749c8f50c6268c7c777ae6879c80e}{wallFront}}();}
+\DoxyCodeLine{00047\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_simulator_af6b6e867ea624e5a616ae521e740d16b}{wallRight}}();}
+\DoxyCodeLine{00054\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_simulator_a83249957b4edf5ddb8ee97355f4d229b}{wallLeft}}();}
+\DoxyCodeLine{00060\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_a0ac8075a09d517a4538dea7d70b80e55}{moveForward}}(\textcolor{keywordtype}{int}\ distance\ =\ 1);}
+\DoxyCodeLine{00065\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_af3e20b66f7372a26639a2ecf6f881490}{turnRight}}();}
+\DoxyCodeLine{00070\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_ab103b5780fb3102441270df9c006e435}{turnLeft}}();}
+\DoxyCodeLine{00078\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_aa0e3277ba6aeba683eb5888ba637a477}{setWall}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{char}\ direction);}
+\DoxyCodeLine{00087\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_a2fcf77e77429b746a1a397de3b19267a}{clearWall}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{char}\ direction);}
+\DoxyCodeLine{00098\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_ae77656a3dea16067d95ca727c36afaab}{setColor}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{char}\ color);}
+\DoxyCodeLine{00105\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_ab7f4460016c5277c2c907ae7af9356f7}{clearColor}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y);}
+\DoxyCodeLine{00109\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_ab67597b50f274e6c03f7913d86cbd696}{clearAllColor}}();}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00118\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_aa033cf7d80338a24678b95ec6f69b371}{setText}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keyword}{const}\ std::string\&\ text);}
+\DoxyCodeLine{00125\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_af15a2139f85767d6fd937f5976bdacad}{clearText}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y);}
+\DoxyCodeLine{00130\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_a18566704e048a3e23df215df4055b44f}{clearAllText}}();}
+\DoxyCodeLine{00137\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_simulator_aee20ffd948723e24a8f7b9e91066be36}{wasReset}}();}
+\DoxyCodeLine{00141\ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_simulator_a76c399cf7d4e32991ead148212f94bb7}{ackReset}}();}
+\DoxyCodeLine{00142\ \};}
+\DoxyCodeLine{00143\ }
+\DoxyCodeLine{00144\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

@@ -1,0 +1,57 @@
+\chapter{README}
+\hypertarget{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e}{}\label{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e}\index{README@{README}}
+{\bfseries{Please refer to the issues where a proposed file format change is described}}\hypertarget{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md0}{}\doxysection{\texorpdfstring{mazefiles}{mazefiles}}\label{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md0}
+A set of micromouse maze files in text format. They have been collected over some years from many sources.
+
+These files are a companion to the maze tool \href{https://github.com/micromouseonline/micromouse_maze_tool}{\texttt{ https\+://github.\+com/micromouseonline/micromouse\+\_\+maze\+\_\+tool}}.
+
+The format used here is as follows\+:
+
+
+\begin{DoxyItemize}
+\item All posts are represented with the character {\ttfamily o}.
+\item All posts must be present in the grid even if there is no wall attached to them.
+\item Horizontal walls are represented with three {\ttfamily -\/-\/-\/}.
+\item Vertical walls are represented with a single {\ttfamily \texorpdfstring{$\vert$}{|}}.
+\item The goal cells are marked with a {\ttfamily G} in the certer of the cell.
+\item The starting cell is marked with an {\ttfamily S} in the certer of the cell.
+\end{DoxyItemize}
+
+Here is an example of a 4x4 maze\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{o-\/-\/-\/o-\/-\/-\/o-\/-\/-\/o-\/-\/-\/o}
+\DoxyCodeLine{|\ G\ |\ \ \ \ \ \ \ \ \ \ \ |}
+\DoxyCodeLine{o\ \ \ o\ \ \ o\ \ \ o-\/-\/-\/o}
+\DoxyCodeLine{|\ \ \ \ \ \ \ |\ \ \ \ \ \ \ |}
+\DoxyCodeLine{o-\/-\/-\/o-\/-\/-\/o-\/-\/-\/o\ \ \ o}
+\DoxyCodeLine{|\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ |}
+\DoxyCodeLine{o\ \ \ o-\/-\/-\/o-\/-\/-\/o\ \ \ o}
+\DoxyCodeLine{|\ S\ |\ \ \ \ \ \ \ \ \ \ \ |}
+\DoxyCodeLine{o-\/-\/-\/o-\/-\/-\/o-\/-\/-\/o-\/-\/-\/o}
+
+\end{DoxyCode}
+
+
+{\bfseries{classic}} mazes are all 16x16. Some of these have smaller active areaswhere the event in which they were used only had a smaller maze available. That may have been 7x8, 8x8, 11x11 or some other size. All these mazes have a legal goal cell in cell 7,7.
+
+{\bfseries{halfsize}} mazes are all 32x32. The goal is not fixed in the same way as it might be in the classic contest. The goal for halfsize mazes is a single cell, marked with a \"{}\+G\"{} in the center of the cell, which may be part of a larger area.
+
+{\bfseries{training}} mazes are all 16x16 but may not have legal goal areas as the useable area might be only 5x5, 8x8, 10x5 or some other size representing small mazes used for testing a mouse where there is not room for a full sized maze. The filename should indicate the active area.
+
+The files may, or may not, represent actual contest mazes. If there are errors in contest mazes, please let me know. Preferably with a photo of the original maze so that I can make changes.\hypertarget{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md1}{}\doxysubsection{\texorpdfstring{FAQ}{FAQ}}\label{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md1}
+\hypertarget{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md2}{}\doxysubsubsection{\texorpdfstring{How can I contribute to the repository?}{How can I contribute to the repository?}}\label{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md2}
+Thanks for your interest! Start by reading Git\+Hub\textquotesingle{}s guide on \href{https://help.github.com/articles/fork-a-repo/}{\texttt{ how to propose changes to someone else\textquotesingle{}s project}}, then feel free to create a pull request with your changes or new maze files.\hypertarget{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md3}{}\doxysubsubsection{\texorpdfstring{Why text files?}{Why text files?}}\label{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md3}
+
+\begin{DoxyItemize}
+\item They are easy to understand by humans.
+\item They get along with version control systems (Git).
+\item They are easy to read/write with any programming language.
+\item They are easy to visualize (just use your browser or favorite text editor).
+\item No need for special tools if you want to edit them or create your own. Just a bit of patience is required.
+\end{DoxyItemize}\hypertarget{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md4}{}\doxysubsubsection{\texorpdfstring{Are there any tools to help me create maze files?}{Are there any tools to help me create maze files?}}\label{md__d_1_2_maze-_solver-simulation-using-_wall-_following-_algorithm-_o_o_p_2mazefiles_2_r_e_a_d_m_e_autotoc_md4}
+
+\begin{DoxyItemize}
+\item If you happen to have an image of a micromouse maze setup you might want to try the \href{https://github.com/Theseus/ommr}{\texttt{ Optical Micromouse Maze Recognition software}}. 
+\end{DoxyItemize}
