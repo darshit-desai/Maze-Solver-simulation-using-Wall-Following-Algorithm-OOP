@@ -1,6 +1,8 @@
 # Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP
 Implementation of the "wall following" algorithm using OOP
 
+Code repo linked [here](https://github.com/darshit-desai/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP), and code documentation linked [here](https://darshit-desai.github.io/Maze-Solver-simulation-using-Wall-Following-Algorithm-OOP/)
+
 A micro mouse solver using left and right wall follower algorithms implemented using C++
 
 
