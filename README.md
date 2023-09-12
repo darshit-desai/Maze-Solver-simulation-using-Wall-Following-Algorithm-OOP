@@ -22,5 +22,7 @@ The project had bonus points for re tracing the path followed by the robot witho
 
 <img align="bottom" src="output/reversemotion.gif"/>
 
+Contributors: [Darshit Desai](https://github.com/darshit-desai) , [Vinay Krishna Bukka](https://github.com/vinay06vinay), Vamshi Kalavagunta
+
 
 
